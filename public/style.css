@@ -1,0 +1,21 @@
+@import url("/font-awesome.min.css");
+
+.trash-button {
+    border: none;
+    background: none;
+}
+
+.edit-button {
+    border: none;
+    background: none;
+}
+
+a { text-decoration: none; }
+
+.show-title {
+    color: #1a53ff;
+}
+
+.show-author {
+    color: #7eb0d5;
+}

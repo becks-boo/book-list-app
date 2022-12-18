@@ -1,0 +1,15 @@
+<form action="/book/update/{{book.dataValues.id}}" id="update-form" method="POST">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" class="form-control" value="{{book.dataValues.title}}">
+    </div>
+    <div class="form-group">
+        <label for="author">Author</label>
+        <input type="text" name="author" id="author" class="form-control" value="{{book.dataValues.author}}">
+    </div>
+    <div class="form-group">
+        <label for="isbn">ISBN#</label>
+        <input type="text" name="isbn" id="isbn" class="form-control" value="{{book.dataValues.isbn}}">
+    </div>
+    <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+</form>
